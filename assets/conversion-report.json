@@ -1,0 +1,474 @@
+[
+  {
+    "resource": "gfx/terobjs/alchemiststable",
+    "version": 27,
+    "meshes": 5,
+    "textureFile": "alchemiststable-tex0.jpg",
+    "output": "assets/objects/alchemiststable.json",
+    "ok": true
+  },
+  {
+    "resource": "gfx/terobjs/furn/archedchair",
+    "version": 40,
+    "meshes": 3,
+    "textureFile": "archedchair-tex0.jpg",
+    "output": "assets/objects/archedchair.json",
+    "ok": true
+  },
+  {
+    "resource": "gfx/terobjs/archerytarget",
+    "version": 73,
+    "meshes": 5,
+    "textureFile": "archerytarget-tex0.jpg",
+    "output": "assets/objects/archerytarget.json",
+    "ok": true
+  },
+  {
+    "resource": "gfx/terobjs/barterstand",
+    "version": 70,
+    "meshes": 4,
+    "textureFile": "barterstand-tex0.jpg",
+    "output": "assets/objects/barterstand.json",
+    "ok": true
+  },
+  {
+    "resource": "gfx/terobjs/bordercairn",
+    "version": 56,
+    "meshes": 3,
+    "textureFile": "bordercairn-tex0.jpg",
+    "output": "assets/objects/bordercairn.json",
+    "ok": true
+  },
+  {
+    "resource": "gfx/terobjs/vehicle/cart",
+    "version": 77,
+    "meshes": 10,
+    "textureFile": "cart-tex0.jpg",
+    "output": "assets/objects/cart.json",
+    "ok": true
+  },
+  {
+    "resource": "gfx/terobjs/arch/cellardoor",
+    "version": 60,
+    "meshes": 3,
+    "textureFile": "cellardoor-tex0.jpg",
+    "output": "assets/objects/cellardoor.json",
+    "ok": true
+  },
+  {
+    "resource": "gfx/terobjs/charterstone",
+    "version": 58,
+    "meshes": 4,
+    "textureFile": "charterstone-tex0.jpg",
+    "output": "assets/objects/charterstone.json",
+    "ok": true
+  },
+  {
+    "resource": "gfx/terobjs/cheeserack",
+    "version": 51,
+    "meshes": 2,
+    "textureFile": null,
+    "output": "assets/objects/cheeserack.json",
+    "ok": true
+  },
+  {
+    "resource": "gfx/terobjs/chickencoop",
+    "version": 80,
+    "meshes": 7,
+    "textureFile": "chickencoop-tex0.jpg",
+    "output": "assets/objects/chickencoop.json",
+    "ok": true
+  },
+  {
+    "resource": "gfx/terobjs/cistern",
+    "version": 44,
+    "meshes": 6,
+    "textureFile": "cistern-tex0.jpg",
+    "output": "assets/objects/cistern.json",
+    "ok": true
+  },
+  {
+    "resource": "gfx/terobjs/dovecote",
+    "version": 17,
+    "meshes": 6,
+    "textureFile": "dovecote-tex0.jpg",
+    "output": "assets/objects/dovecote.json",
+    "ok": true
+  },
+  {
+    "resource": "gfx/terobjs/vehicle/dugout",
+    "version": 69,
+    "meshes": 10,
+    "textureFile": "dugout-tex0.jpg",
+    "output": "assets/objects/dugout.json",
+    "ok": true
+  },
+  {
+    "resource": "gfx/terobjs/furn/finesofa",
+    "version": 50,
+    "meshes": 2,
+    "textureFile": "finesofa-tex0.jpg",
+    "output": "assets/objects/finesofa.json",
+    "ok": true
+  },
+  {
+    "resource": "gfx/terobjs/trough",
+    "version": 55,
+    "meshes": 5,
+    "textureFile": "foodtrough-tex0.jpg",
+    "output": "assets/objects/foodtrough.json",
+    "ok": true
+  },
+  {
+    "resource": "gfx/terobjs/gardenpot",
+    "version": 65,
+    "meshes": 3,
+    "textureFile": "gardenpot-tex0.jpg",
+    "output": "assets/objects/gardenpot.json",
+    "ok": true
+  },
+  {
+    "resource": "gfx/terobjs/gemwheel",
+    "version": 43,
+    "meshes": 5,
+    "textureFile": "gemcutterswheel-tex0.jpg",
+    "output": "assets/objects/gemcutterswheel.json",
+    "ok": true
+  },
+  {
+    "resource": "gfx/terobjs/granary",
+    "version": 52,
+    "meshes": 5,
+    "textureFile": "granary-tex0.jpg",
+    "output": "assets/objects/granary.json",
+    "ok": true
+  },
+  {
+    "resource": "gfx/terobjs/gravecairn",
+    "version": 76,
+    "meshes": 5,
+    "textureFile": "gravecairn-tex0.jpg",
+    "output": "assets/objects/gravecairn.json",
+    "ok": true
+  },
+  {
+    "resource": "gfx/terobjs/arch/greathall",
+    "version": 75,
+    "meshes": 18,
+    "textureFile": "greathall-tex0.jpg",
+    "output": "assets/objects/greathall.json",
+    "ok": true
+  },
+  {
+    "resource": "gfx/terobjs/vehicle/spark",
+    "version": 30,
+    "meshes": 5,
+    "textureFile": "kicksled-tex0.jpg",
+    "output": "assets/objects/kicksled.json",
+    "ok": true
+  },
+  {
+    "resource": "gfx/terobjs/kiln",
+    "version": 157,
+    "meshes": 2,
+    "textureFile": "kiln-tex0.jpg",
+    "output": "assets/objects/kiln.json",
+    "ok": true
+  },
+  {
+    "resource": "gfx/terobjs/vehicle/knarr",
+    "version": 91,
+    "meshes": 21,
+    "textureFile": "knarr-tex0.jpg",
+    "output": "assets/objects/knarr.json",
+    "ok": true
+  },
+  {
+    "resource": "gfx/terobjs/knarrdock",
+    "version": 36,
+    "meshes": 4,
+    "textureFile": "knarrdock-tex0.jpg",
+    "output": "assets/objects/knarrdock.json",
+    "ok": true
+  },
+  {
+    "resource": "gfx/terobjs/arch/logcabin",
+    "version": 128,
+    "meshes": 4,
+    "textureFile": "logcabin-tex0.jpg",
+    "output": "assets/objects/logcabin.json",
+    "ok": true
+  },
+  {
+    "resource": "gfx/terobjs/loom",
+    "version": 79,
+    "meshes": 4,
+    "textureFile": "loom-tex0.jpg",
+    "output": "assets/objects/loom.json",
+    "ok": true
+  },
+  {
+    "resource": "gfx/terobjs/metalcabinet",
+    "version": 20,
+    "meshes": 10,
+    "textureFile": "metalcabinet-tex0.jpg",
+    "output": "assets/objects/metalcabinet.json",
+    "ok": true
+  },
+  {
+    "resource": "gfx/terobjs/cauldron",
+    "version": 82,
+    "meshes": 7,
+    "textureFile": "metalcauldron-tex0.jpg",
+    "output": "assets/objects/metalcauldron.json",
+    "ok": true
+  },
+  {
+    "resource": "gfx/terobjs/minesupport",
+    "version": 69,
+    "meshes": 3,
+    "textureFile": "minesupport-tex0.jpg",
+    "output": "assets/objects/minesupport.json",
+    "ok": true
+  },
+  {
+    "resource": "gfx/terobjs/noticeboard",
+    "version": 49,
+    "meshes": 4,
+    "textureFile": "noticeboard-tex0.jpg",
+    "output": "assets/objects/noticeboard.json",
+    "ok": true
+  },
+  {
+    "resource": "gfx/terobjs/smelter",
+    "version": 67,
+    "meshes": 15,
+    "textureFile": "smelter-tex0.jpg",
+    "output": "assets/objects/smelter.json",
+    "ok": true
+  },
+  {
+    "resource": "gfx/terobjs/postbox",
+    "version": 36,
+    "meshes": 5,
+    "textureFile": "postbox-tex0.jpg",
+    "output": "assets/objects/postbox.json",
+    "ok": true
+  },
+  {
+    "resource": "gfx/terobjs/potterswheel",
+    "version": 55,
+    "meshes": 7,
+    "textureFile": "potterswheel-tex0.jpg",
+    "output": "assets/objects/potterswheel.json",
+    "ok": true
+  },
+  {
+    "resource": "gfx/terobjs/rabbithutch",
+    "version": 76,
+    "meshes": 17,
+    "textureFile": "rabbithutch-tex0.jpg",
+    "output": "assets/objects/rabbithutch.json",
+    "ok": true
+  },
+  {
+    "resource": "gfx/terobjs/vehicle/rowboat",
+    "version": 143,
+    "meshes": 12,
+    "textureFile": "rowboat-tex0.jpg",
+    "output": "assets/objects/rowboat.json",
+    "ok": true
+  },
+  {
+    "resource": "gfx/terobjs/runestone",
+    "version": 55,
+    "meshes": 2,
+    "textureFile": "runestone-tex0.jpg",
+    "output": "assets/objects/runestone.json",
+    "ok": true
+  },
+  {
+    "resource": "gfx/terobjs/smokeshed",
+    "version": 33,
+    "meshes": 9,
+    "textureFile": "smokeshed-tex0.jpg",
+    "output": "assets/objects/smokeshed.json",
+    "ok": true
+  },
+  {
+    "resource": "gfx/terobjs/vehicle/snekkja",
+    "version": 56,
+    "meshes": 13,
+    "textureFile": "snekkja-tex0.jpg",
+    "output": "assets/objects/snekkja.json",
+    "ok": true
+  },
+  {
+    "resource": "gfx/terobjs/arch/stonestead",
+    "version": 102,
+    "meshes": 7,
+    "textureFile": "stonestead-tex0.jpg",
+    "output": "assets/objects/stonestead.json",
+    "ok": true
+  },
+  {
+    "resource": "gfx/terobjs/arch/stonemansion",
+    "version": 77,
+    "meshes": 10,
+    "textureFile": "stonemansion-tex0.jpg",
+    "output": "assets/objects/stonemansion.json",
+    "ok": true
+  },
+  {
+    "resource": "gfx/terobjs/furn/stonethrone",
+    "version": 40,
+    "meshes": 2,
+    "textureFile": "stonethrone-tex0.jpg",
+    "output": "assets/objects/stonethrone.json",
+    "ok": true
+  },
+  {
+    "resource": "gfx/terobjs/arch/stonetower",
+    "version": 85,
+    "meshes": 9,
+    "textureFile": "stonetower-tex0.jpg",
+    "output": "assets/objects/stonetower.json",
+    "ok": true
+  },
+  {
+    "resource": "gfx/terobjs/studydesk",
+    "version": 61,
+    "meshes": 3,
+    "textureFile": "studydesk-tex0.jpg",
+    "output": "assets/objects/studydesk.json",
+    "ok": true
+  },
+  {
+    "resource": "gfx/terobjs/arch/timberhouse",
+    "version": 77,
+    "meshes": 6,
+    "textureFile": "timberhouse-tex0.jpg",
+    "output": "assets/objects/timberhouse.json",
+    "ok": true
+  },
+  {
+    "resource": "gfx/terobjs/torchpost",
+    "version": 47,
+    "meshes": 2,
+    "textureFile": "torchpost-tex0.jpg",
+    "output": "assets/objects/torchpost.json",
+    "ok": true
+  },
+  {
+    "resource": "gfx/terobjs/urn",
+    "version": 34,
+    "meshes": 1,
+    "textureFile": "urn-tex0.jpg",
+    "output": "assets/objects/urn.json",
+    "ok": true
+  },
+  {
+    "resource": "gfx/terobjs/villageidol",
+    "version": 86,
+    "meshes": 8,
+    "textureFile": "villageidol-tex0.jpg",
+    "output": "assets/objects/villageidol.json",
+    "ok": true
+  },
+  {
+    "resource": "gfx/terobjs/vehicle/wagon",
+    "version": 68,
+    "meshes": 17,
+    "textureFile": "wagon-tex0.jpg",
+    "output": "assets/objects/wagon.json",
+    "ok": true
+  },
+  {
+    "resource": "gfx/terobjs/wardrobe",
+    "version": 59,
+    "meshes": 8,
+    "textureFile": "wardrobe-tex0.jpg",
+    "output": "assets/objects/wardrobe.json",
+    "ok": true
+  },
+  {
+    "resource": "gfx/terobjs/well",
+    "version": 73,
+    "meshes": 12,
+    "textureFile": "well-tex0.jpg",
+    "output": "assets/objects/well.json",
+    "ok": true
+  },
+  {
+    "resource": "gfx/terobjs/vehicle/wheelbarrow",
+    "version": 66,
+    "meshes": 7,
+    "textureFile": "wheelbarrow-tex0.jpg",
+    "output": "assets/objects/wheelbarrow.json",
+    "ok": true
+  },
+  {
+    "resource": "gfx/terobjs/wildernessbeacon",
+    "version": 65,
+    "meshes": 4,
+    "textureFile": "wildernessbeacon-tex0.jpg",
+    "output": "assets/objects/wildernessbeacon.json",
+    "ok": true
+  },
+  {
+    "resource": "gfx/terobjs/arch/windmill",
+    "version": 89,
+    "meshes": 8,
+    "textureFile": "windmill-tex0.jpg",
+    "output": "assets/objects/windmill.json",
+    "ok": true
+  },
+  {
+    "resource": "gfx/terobjs/vehicle/wreckingball",
+    "version": 63,
+    "meshes": 5,
+    "textureFile": "wreckingball-tex0.jpg",
+    "output": "assets/objects/wreckingball.json",
+    "ok": true
+  },
+  {
+    "resource": "gfx/terobjs/stonearchtunnel",
+    "version": 1,
+    "meshes": 4,
+    "textureFile": "stonearchtunnel-tex0.jpg",
+    "output": "assets/objects/stonearchtunnel.json",
+    "ok": true
+  },
+  {
+    "resource": "gfx/terobjs/timbertunnel",
+    "version": 1,
+    "meshes": 3,
+    "textureFile": "timbertunnel-tex0.jpg",
+    "output": "assets/objects/timbertunnel.json",
+    "ok": true
+  },
+  {
+    "resource": "gfx/terobjs/reinforcedtunnel",
+    "version": 1,
+    "meshes": 3,
+    "textureFile": "reinforcedtunnel-tex0.jpg",
+    "output": "assets/objects/reinforcedtunnel.json",
+    "ok": true
+  },
+  {
+    "resource": "gfx/terobjs/column",
+    "version": 43,
+    "meshes": 4,
+    "textureFile": "column-tex0.jpg",
+    "output": "assets/objects/column.json",
+    "ok": true
+  },
+  {
+    "resource": "gfx/terobjs/minevator-top",
+    "version": 21,
+    "meshes": 4,
+    "textureFile": "minevator-top-tex0.jpg",
+    "output": "assets/objects/minevator-top.json",
+    "ok": true
+  }
+]

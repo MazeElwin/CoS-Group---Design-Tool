@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HMDT Texture Catalog</title>
+    <link rel="stylesheet" href="style.css?v=texture-search-pickers-17" />
+    <style>
+      body {
+        display: block;
+        padding: 32px;
+      }
+
+      .catalog-shell {
+        max-width: 1100px;
+        margin: 0 auto;
+      }
+
+      .catalog-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 18px;
+        margin-bottom: 22px;
+      }
+
+      .catalog-toolbar {
+        display: grid;
+        gap: 12px;
+        margin-bottom: 18px;
+      }
+
+      .catalog-search {
+        width: 100%;
+        height: 40px;
+        border: 1px solid var(--border);
+        border-radius: 6px;
+        background: rgba(10, 12, 18, 0.78);
+        color: var(--text);
+        padding: 0 12px;
+      }
+
+      .catalog-filters {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+      }
+
+      .catalog-filter {
+        min-height: 34px;
+        border: 1px solid var(--border);
+        border-radius: 4px;
+        background: rgba(255,255,255,0.03);
+        color: var(--text);
+        padding: 0 10px;
+        cursor: pointer;
+      }
+
+      .catalog-filter.selected {
+        border-color: rgba(245,182,93,0.68);
+        color: #f8c77a;
+      }
+
+      .catalog-count {
+        color: var(--muted);
+        font-size: 0.82rem;
+      }
+
+      .catalog-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 16px;
+      }
+
+      .catalog-card {
+        padding: 14px;
+        border-radius: 18px;
+        border: 1px solid rgba(148, 163, 184, 0.16);
+        background: rgba(10, 17, 25, 0.82);
+      }
+
+      .catalog-swatch {
+        min-height: 140px;
+        border-radius: 14px;
+        border: 1px solid rgba(255,255,255,0.08);
+        margin-bottom: 12px;
+      }
+
+      .catalog-meta {
+        display: flex;
+        justify-content: space-between;
+        gap: 12px;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="catalog-shell">
+      <div class="catalog-header">
+        <div>
+          <p class="eyebrow">Reference set</p>
+          <h1>Texture catalog</h1>
+        </div>
+        <a class="ghost-button" href="index.html">Return to designer</a>
+      </div>
+
+      <div class="catalog-toolbar">
+        <input id="catalogSearch" class="catalog-search" type="search" placeholder="Search textures" autocomplete="off" />
+        <div id="catalogFilters" class="catalog-filters"></div>
+        <div id="catalogCount" class="catalog-count"></div>
+      </div>
+
+      <div id="catalogGrid" class="catalog-grid"></div>
+    </div>
+
+    <script src="app.js?v=texture-search-pickers-17"></script>
+    <script>
+      const catalogGrid = document.querySelector('#catalogGrid');
+      const catalogSearch = document.querySelector('#catalogSearch');
+      const catalogFilters = document.querySelector('#catalogFilters');
+      const catalogCount = document.querySelector('#catalogCount');
+      let allTextures = [];
+      let currentType = 'All';
+
+      function renderFilters(catalog) {
+        const counts = catalog.reduce((acc, texture) => {
+          acc[texture.finish] = (acc[texture.finish] || 0) + 1;
+          return acc;
+        }, { All: catalog.length });
+
+        catalogFilters.innerHTML = '';
+        Object.keys(counts).forEach((type) => {
+          const button = document.createElement('button');
+          button.type = 'button';
+          button.className = `catalog-filter ${type === currentType ? 'selected' : ''}`;
+          button.textContent = `${type} ${counts[type]}`;
+          button.addEventListener('click', () => {
+            currentType = type;
+            renderFilters(allTextures);
+            renderCatalog();
+          });
+          catalogFilters.appendChild(button);
+        });
+      }
+
+      function renderCatalog() {
+        const query = catalogSearch.value.trim().toLowerCase();
+        const catalog = allTextures.filter((texture) => (
+          (currentType === 'All' || texture.finish === currentType) &&
+          (!query || texture.name.toLowerCase().includes(query))
+        ));
+
+        catalogGrid.innerHTML = '';
+        catalogCount.textContent = `${catalog.length} of ${allTextures.length} textures`;
+        catalog.forEach((texture) => {
+          const card = document.createElement('article');
+          card.className = 'catalog-card';
+          card.innerHTML = `
+            <div class="catalog-swatch" style="background: ${buildTextureBackground(texture)};"></div>
+            <div class="catalog-meta">
+              <div>
+                <strong>${texture.name}</strong>
+                <div class="eyebrow">${texture.finish}</div>
+              </div>
+              <span class="status-pill">${texture.pattern}</span>
+            </div>
+          `;
+          catalogGrid.appendChild(card);
+        });
+      }
+
+      catalogSearch.addEventListener('input', renderCatalog);
+      hydrateResourceOptions()
+        .then(() => {
+          allTextures = getFullTextureCatalog();
+          renderFilters(allTextures);
+          renderCatalog();
+        })
+        .catch(() => {
+          allTextures = textureCatalog;
+          renderFilters(allTextures);
+          renderCatalog();
+        });
+    </script>
+  </body>
+</html>

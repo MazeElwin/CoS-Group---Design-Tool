@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Direct Haven Resource Preview</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      body {
+        display: block;
+        min-height: 100vh;
+        overflow: hidden;
+      }
+
+      .direct-preview-toolbar {
+        position: fixed;
+        left: 16px;
+        top: 16px;
+        z-index: 5;
+        display: grid;
+        gap: 4px;
+        padding: 10px 12px;
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        background: rgba(16, 18, 23, 0.9);
+      }
+
+      .direct-preview-toolbar strong {
+        font-size: 0.9rem;
+      }
+
+      .direct-preview-toolbar span {
+        color: var(--muted);
+        font-size: 0.76rem;
+      }
+
+      #sceneCanvas {
+        min-height: 100vh;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="direct-preview-toolbar">
+      <strong>Direct Haven Preview</strong>
+      <span>Source: game.havenandhearth.com/res</span>
+      <span id="status">Loading windmill...</span>
+    </div>
+    <canvas id="sceneCanvas"></canvas>
+
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/build/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+    <script src="direct-haven-preview.js"></script>
+  </body>
+</html>

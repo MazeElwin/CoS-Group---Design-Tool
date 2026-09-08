@@ -1,0 +1,251 @@
+{
+  "found": {
+    "Alchemist's Table": {
+      "fileName": "alchemiststable.json",
+      "path": "gfx/terobjs/alchemiststable"
+    },
+    "Arched Chair": {
+      "fileName": "archedchair.json",
+      "path": "gfx/terobjs/furn/archedchair"
+    },
+    "Archery Target": {
+      "fileName": "archerytarget.json",
+      "path": "gfx/terobjs/archerytarget"
+    },
+    "Barter Stand": {
+      "fileName": "barterstand.json",
+      "path": "gfx/terobjs/barterstand"
+    },
+    "Border Cairn": {
+      "fileName": "bordercairn.json",
+      "path": "gfx/terobjs/bordercairn"
+    },
+    "Cart": {
+      "fileName": "cart.json",
+      "path": "gfx/terobjs/vehicle/cart"
+    },
+    "Cellar Door": {
+      "fileName": "cellardoor.json",
+      "path": "gfx/terobjs/arch/cellardoor"
+    },
+    "Charter Stone": {
+      "fileName": "charterstone.json",
+      "path": "gfx/terobjs/charterstone"
+    },
+    "Cheese Rack": {
+      "fileName": "cheeserack.json",
+      "path": "gfx/terobjs/cheeserack"
+    },
+    "Chicken Coop": {
+      "fileName": "chickencoop.json",
+      "path": "gfx/terobjs/chickencoop"
+    },
+    "Cistern": {
+      "fileName": "cistern.json",
+      "path": "gfx/terobjs/cistern"
+    },
+    "Dovecote": {
+      "fileName": "dovecote.json",
+      "path": "gfx/terobjs/dovecote"
+    },
+    "Dugout": {
+      "fileName": "dugout.json",
+      "path": "gfx/terobjs/vehicle/dugout"
+    },
+    "Fine Sofa": {
+      "fileName": "finesofa.json",
+      "path": "gfx/terobjs/furn/finesofa"
+    },
+    "Food Trough": {
+      "fileName": "foodtrough.json",
+      "path": "gfx/terobjs/trough"
+    },
+    "Garden Pot": {
+      "fileName": "gardenpot.json",
+      "path": "gfx/terobjs/gardenpot"
+    },
+    "Gemcutter's Wheel": {
+      "fileName": "gemcutterswheel.json",
+      "path": "gfx/terobjs/gemwheel"
+    },
+    "Granary": {
+      "fileName": "granary.json",
+      "path": "gfx/terobjs/granary"
+    },
+    "Grave Cairn": {
+      "fileName": "gravecairn.json",
+      "path": "gfx/terobjs/gravecairn"
+    },
+    "Great Hall": {
+      "fileName": "greathall.json",
+      "path": "gfx/terobjs/arch/greathall"
+    },
+    "Kicksled": {
+      "fileName": "kicksled.json",
+      "path": "gfx/terobjs/vehicle/spark"
+    },
+    "Kiln": {
+      "fileName": "kiln.json",
+      "path": "gfx/terobjs/kiln"
+    },
+    "Knarr": {
+      "fileName": "knarr.json",
+      "path": "gfx/terobjs/vehicle/knarr"
+    },
+    "Knarr Dock": {
+      "fileName": "knarrdock.json",
+      "path": "gfx/terobjs/knarrdock"
+    },
+    "Log Cabin": {
+      "fileName": "logcabin.json",
+      "path": "gfx/terobjs/arch/logcabin"
+    },
+    "Loom": {
+      "fileName": "loom.json",
+      "path": "gfx/terobjs/loom"
+    },
+    "Metal Cabinet": {
+      "fileName": "metalcabinet.json",
+      "path": "gfx/terobjs/metalcabinet"
+    },
+    "Metal Cauldron": {
+      "fileName": "metalcauldron.json",
+      "path": "gfx/terobjs/cauldron"
+    },
+    "Mine Support": {
+      "fileName": "minesupport.json",
+      "path": "gfx/terobjs/minesupport"
+    },
+    "Notice Board": {
+      "fileName": "noticeboard.json",
+      "path": "gfx/terobjs/noticeboard"
+    },
+    "Ore Smelter": {
+      "fileName": "smelter.json",
+      "path": "gfx/terobjs/smelter"
+    },
+    "Postbox": {
+      "fileName": "postbox.json",
+      "path": "gfx/terobjs/postbox"
+    },
+    "Potter's Wheel": {
+      "fileName": "potterswheel.json",
+      "path": "gfx/terobjs/potterswheel"
+    },
+    "Rabbit Hutch": {
+      "fileName": "rabbithutch.json",
+      "path": "gfx/terobjs/rabbithutch"
+    },
+    "Rowboat": {
+      "fileName": "rowboat.json",
+      "path": "gfx/terobjs/vehicle/rowboat"
+    },
+    "Runestone": {
+      "fileName": "runestone.json",
+      "path": "gfx/terobjs/runestone"
+    },
+    "Smoke Shed": {
+      "fileName": "smokeshed.json",
+      "path": "gfx/terobjs/smokeshed"
+    },
+    "Snekkja": {
+      "fileName": "snekkja.json",
+      "path": "gfx/terobjs/vehicle/snekkja"
+    },
+    "Stonestead": {
+      "fileName": "stonestead.json",
+      "path": "gfx/terobjs/arch/stonestead"
+    },
+    "Stone Mansion": {
+      "fileName": "stonemansion.json",
+      "path": "gfx/terobjs/arch/stonemansion"
+    },
+    "Stone Throne": {
+      "fileName": "stonethrone.json",
+      "path": "gfx/terobjs/furn/stonethrone"
+    },
+    "Stone Tower": {
+      "fileName": "stonetower.json",
+      "path": "gfx/terobjs/arch/stonetower"
+    },
+    "Study Desk": {
+      "fileName": "studydesk.json",
+      "path": "gfx/terobjs/studydesk"
+    },
+    "Timber House": {
+      "fileName": "timberhouse.json",
+      "path": "gfx/terobjs/arch/timberhouse"
+    },
+    "Torchpost": {
+      "fileName": "torchpost.json",
+      "path": "gfx/terobjs/torchpost"
+    },
+    "Urn": {
+      "fileName": "urn.json",
+      "path": "gfx/terobjs/urn"
+    },
+    "Village Idol": {
+      "fileName": "villageidol.json",
+      "path": "gfx/terobjs/villageidol"
+    },
+    "Wagon": {
+      "fileName": "wagon.json",
+      "path": "gfx/terobjs/vehicle/wagon"
+    },
+    "Wardrobe": {
+      "fileName": "wardrobe.json",
+      "path": "gfx/terobjs/wardrobe"
+    },
+    "Well": {
+      "fileName": "well.json",
+      "path": "gfx/terobjs/well"
+    },
+    "Wheelbarrow": {
+      "fileName": "wheelbarrow.json",
+      "path": "gfx/terobjs/vehicle/wheelbarrow"
+    },
+    "Wilderness Beacon": {
+      "fileName": "wildernessbeacon.json",
+      "path": "gfx/terobjs/wildernessbeacon"
+    },
+    "Windmill": {
+      "fileName": "windmill.json",
+      "path": "gfx/terobjs/arch/windmill"
+    },
+    "Wrecking Ball": {
+      "fileName": "wreckingball.json",
+      "path": "gfx/terobjs/vehicle/wreckingball"
+    },
+    "Stone Arch Tunnel": {
+      "fileName": "stonearchtunnel.json",
+      "path": "gfx/terobjs/stonearchtunnel"
+    },
+    "Timber Tunnel": {
+      "fileName": "timbertunnel.json",
+      "path": "gfx/terobjs/timbertunnel"
+    },
+    "Reinforced Tunnel": {
+      "fileName": "reinforcedtunnel.json",
+      "path": "gfx/terobjs/reinforcedtunnel"
+    },
+    "Stone Column": {
+      "fileName": "column.json",
+      "path": "gfx/terobjs/column"
+    },
+    "Mine Elevator Top": {
+      "fileName": "minevator-top.json",
+      "path": "gfx/terobjs/minevator-top"
+    }
+  },
+  "missing": [
+    "Extraction Press",
+    "Garden Shed",
+    "Milestone",
+    "Roadsing",
+    "Statue of the Chieftain",
+    "Stone Table",
+    "Sturdy Bed",
+    "Trellis",
+    "Village Banner"
+  ]
+}

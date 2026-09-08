@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Haven Material Designer Tool</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet" href="style.css?v=texture-search-pickers-17" />
+  </head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/build/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+    <script type="text/javascript">
+      document.addEventListener('DOMContentLoaded', function () {
+        initScene();
+      });
+    </script>
+
+    <div class="wrapper">
+      <div class="panel">
+        <div id="currentObjCard" class="mdl-shadow--2dp hidden">
+          <div class="mdl-card__supporting-text">
+            Currently viewing:&nbsp;<span id="currentObject">Select an object</span>
+          </div>
+          <div class="mdl-card__actions mdl-card--border">
+            <button id="btn-changemodel" class="mdl-button mdl-js-button mdl-button--icon mdl-button--colored" type="button" aria-label="change object" title="Change object">
+              <i class="material-icons">view_in_ar</i>
+            </button>
+            <button id="btn-share" class="mdl-button mdl-js-button mdl-button--icon mdl-button--colored" type="button" aria-label="share" title="Share current design">
+              <i class="material-icons">share</i>
+            </button>
+            <button id="btn-random" class="mdl-button mdl-js-button mdl-button--icon mdl-button--colored" type="button" aria-label="randomize" title="Randomize materials">
+              <i class="material-icons">shuffle</i>
+            </button>
+            <button id="btn-textures" class="mdl-button mdl-js-button mdl-button--icon mdl-button--colored" type="button" aria-label="texture palette" title="Texture palette">
+              <i class="material-icons">color_lens</i>
+            </button>
+          </div>
+        </div>
+        <div class="materials"></div>
+      </div>
+
+      <div class="scene">
+        <div id="camoptions" class="hidden">
+          <div class="camoptions-point"><span>x:</span><input type="text" id="cam-point-x" /></div>
+          <div class="camoptions-point"><span>y:</span><input type="text" id="cam-point-y" /></div>
+          <div class="camoptions-point"><span>z:</span><input type="text" id="cam-point-z" /></div>
+        </div>
+
+        <div id="recipe" class="hidden mdl-shadow--2dp">
+          <div class="recipe-control">
+            <label>Recipe:</label>
+            <label class="switch-wrap" for="switch-recipe">
+              <input type="checkbox" id="switch-recipe" />
+              <span class="switch-label"></span>
+            </label>
+          </div>
+          <div id="recipe-list" class="hidden"></div>
+        </div>
+
+        <canvas id="sceneCanvas" width="1600" height="900"></canvas>
+      </div>
+    </div>
+
+    <div id="loader"><div class="loading-wheel"></div></div>
+    <div id="texview" class="hidden"></div>
+
+    <dialog id="dialog-select-object" class="mdl-dialog">
+      <h4 class="mdl-dialog__title">Select an object to preview</h4>
+      <div class="mdl-dialog__content">
+        <div class="field-wrap">
+          <label for="objectInput">Object</label>
+          <input type="search" id="objectInput" autocomplete="off" placeholder="Search objects" value="Alchemist's Table" />
+          <div class="object-list" id="objectList"></div>
+        </div>
+      </div>
+      <div class="mdl-dialog__actions">
+        <button id="btn-preview" type="button" class="mdl-button">Preview</button>
+        <button type="button" class="mdl-button" id="btn-open-textures">Textures</button>
+      </div>
+    </dialog>
+
+    <dialog id="dialog-link-share" class="mdl-dialog">
+      <h4 class="mdl-dialog__title">Share current design</h4>
+      <div class="mdl-dialog__content">
+        <div class="shared-field">
+          <input type="text" id="input-share" readonly />
+        </div>
+      </div>
+      <div class="mdl-dialog__actions">
+        <button id="btn-share-close" type="button" class="mdl-button">Close</button>
+      </div>
+    </dialog>
+
+    <script src="app.js?v=texture-search-pickers-17"></script>
+  </body>
+</html>
